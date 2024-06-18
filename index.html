@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="profile">
+                <img src="12.jpg" alt="Syamsiatul" id="profile-pic">
+                <h2>Syamsiatul Fitria</h2>
+                <h3>Skills</h3>
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>React</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Node.js</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <hr>
+                <h3>Pendidikan</h3>
+                <div class="project">
+                    <h3>Sekolah Dasar</h3>
+                    <p>SDN 01 Sawung Dadi</p>
+
+                    <h3>Sekolah Menengah Pertama</h3>
+                    <p>SMPN 02 BP Peliung</p>
+
+                   <h3>Sekolah Menengah Atas</h3>
+                    <p>SMK 1 Martapura</p>
+
+                    <h3>Starata Satu</h3>
+                    <p>Univ Nurul Huda</p>
+                </div>
+                <hr>
+                <h3>Pengalaman</h3>
+                <div class="project">
+                    <h3>Oprator Samsat martapura</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ut.</p>
+                    <div class="project-details">
+                        <p>Detailed description of the course.</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section id="hero">
+                <h1>WELCOME TO TRIA PORTOFOLIO</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, ipsa?s</p>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Hi, I'm Syamsiatul Fitria,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque aliquid suscipit architecto rem obcaecati doloremque quasi ipsa quos voluptatem, quo esse dolore ex sint iusto consequatur distinctio dolorum reiciendis iure expedita ducimus recusandae omnis! Quos id doloribus aliquam nemo quidem..</p>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project" data-project="1">
+                    <h3>Project One</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis cum veniam voluptatibus minus nesciunt sunt sapiente dolores aperiam saepe..</p>
+                    <div class="project-details" id="project-details-1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci officiis commodi voluptates! Nesciunt quae tempore iusto maiores aperiam neque dolorum, perspiciatis sint facilis praesentium expedita, quisquam sunt doloremque debitis culpa!.</p>
+                    </div>
+                </div>
+                <div class="project" data-project="2">
+                    <h3>Project Two</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolor autem accusantium illo minus ipsam?.</p>
+                    <div class="project-details" id="project-details-2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quia facilis optio, quis, cupiditate, culpa ea eligendi modi animi odit dolorum aut beatae minima. Cupiditate accusantium et dolor non, impedit incidunt recusandae delectus, quis, consequatur inventore modi expedita soluta vero..</p>
+                    </div>
+                </div>
+                <div class="project" data-project="3">
+                    <h3>Project Three</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, quos sit?.</p>
+                    <div class="project-details" id="project-details-3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A maiores nostrum quibusdam, consequuntur totam itaque explicabo commodi asperiores exercitationem aspernatur quaerat expedita quasi! Maxime magni quos vero? Error illo explicabo hic natus eum, ducimus dolorem dicta distinctio neque, magnam quod. Repellat vitae explicabo accusantium..</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+
+            <footer>
+                <p> Syamsiatul Fitria. </p>
+            </footer>
+        </main>
+    </div>
+
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
